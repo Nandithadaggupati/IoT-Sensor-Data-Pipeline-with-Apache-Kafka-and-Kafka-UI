@@ -1,0 +1,12 @@
+{
+  "kafka_broker_url": "localhost:9094",
+  "kafka_ui_url": "http://localhost:8080",
+  "topics": {
+    "readings": "sensor-readings",
+    "alerts": "sensor-alerts"
+  },
+  "scripts": {
+    "producer_start_command": "python producer.py",
+    "consumer_start_command": "python consumer.py"
+  }
+}
